@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.form-container{
+    background-color: #fff;
+    padding: 60px 80px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 500px;
+}
+
+.form-container h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color:rgb(13, 13, 90);
+}
+
+.form-container div{
+    width: 100%;
+    margin: 15px 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-container div input{
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    margin: 40px 0;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(13, 13, 90);
+    color: #fff;
+}
+
+.btn-createAcc{
+    background-color: green;
+}
