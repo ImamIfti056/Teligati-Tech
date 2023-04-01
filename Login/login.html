@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="login.css">
     <title>Techie - Login or Sign in</title>
 </head>
+
 <body>
+    <!-- Navbar -->
+    <header class="flex">
+        <h1>Techie</h1>
+        <nav>
+            <ul class="flex">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login form -->
     <div class="form-container">
         <h1>Sign in</h1>
         <div>
-            <label for="email">Email</label> <br>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" placeholder="Email">
         </div>
         <div>
-            <label for="password">Password</label> <br>
-            <input type="password" id="password" name="password">
+            <input type="password" id="password" name="password" placeholder="Password">
         </div>
         <button id="btn-login" onclick="login()" class="btn btn-login">Sign in</button>
+        <p><u>Forget Password?</u></p>
         <hr>
         <button class="btn btn-createAcc" onclick="createAccount()">Create New Account</button>
     </div>
