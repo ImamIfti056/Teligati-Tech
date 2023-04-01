@@ -1,9 +1,12 @@
-/* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-} */
+#login{
+    margin-top: 100px;
+    padding: 0 50px;
+    color: #0d0d5a;
+}
+
+#login h1 i{
+    font-size: 300px;
+}
 
 .form-container{
     background-color: #fff;
@@ -17,7 +20,6 @@
     text-align: center;
     margin-bottom: 40px;
     font-size: 40px;
-    color:#0d0d5a;
 }
 
 .form-container div{

@@ -28,17 +28,33 @@ input{
     border-bottom: 1px solid #0d0d5a;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+    margin: 20px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 24px;
+}
+
 /* -----------------Navbar------------------ */
 header{
     background-color: #0d0d5a;
     color: white;
     height: 90px;
-    padding: 0 100px;
 }
 
 header h1{
     font-size: 42px;
-    margin-left: 30px;
 }
 
 header nav li{
@@ -54,23 +70,4 @@ header nav li:hover{
 header nav li a{
     color: white;
 }
-
 /* --------------Navbar---------------------- */
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.btn{
-    cursor: pointer;
-    display: block;
-    width: 100%;
-    font-size: 18px;
-    font-family: 'Oxygen', sans-serif;
-    margin: 20px 0;
-    padding: 12px;
-    border: none;
-    border-radius: 24px;
-}
