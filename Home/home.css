@@ -3,8 +3,8 @@ header{
 }
 
 .banner{
-    background: url('img/banner5.PNG') center center;
-    height: calc(70vh - 90px);
+    background: url('img/banner5.PNG') center center fixed;
+    height: calc(80vh - 90px);
     color: #fff;
 }
 
@@ -23,10 +23,22 @@ header{
     width: 25%;
     border: 2px solid white;
     padding: 16px;
+    transition: 400ms;
+    border-radius: 30px;
 }
 
 .btn-pc-build:hover{
     background-color: transparent;
     color: #fff;
+}
+
+#products{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#products .card{
+    height: 250px;
 }
 
