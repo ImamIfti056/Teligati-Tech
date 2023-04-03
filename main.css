@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: #eee;
     font-family: 'Oxygen', sans-serif;
+    color: #0d0d5a;
 }
 
 img{
@@ -15,6 +15,7 @@ img{
 
 a{
     text-decoration: none;
+    color: #0d0d5a;
 }
 
 li{
@@ -58,6 +59,13 @@ input{
     color: #0d0d5a;
 }
 
+.title{
+    font-size: 32px;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 700;
+}
+
 
 /* -----------------Navbar------------------ */
 header{
@@ -80,7 +88,7 @@ header nav li:hover{
     border-bottom: 2px solid white;
 }
 
-header nav li a{
-    color: white;
+header a{
+    color: #fff;
 }
 /* --------------Navbar---------------------- */
