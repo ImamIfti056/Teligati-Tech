@@ -39,9 +39,17 @@ input{
 
 
 /* ----------------------Class--------------------------- */
+.container{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* background-color: yellow; */
+}
+
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -75,7 +83,7 @@ input{
 .line{
     width: 200px;
     height: 3px;
-    margin: 20px auto;
+    margin: 15px auto;
     background-color: lime;
     border: 2px solid lime;    
 }
@@ -96,7 +104,7 @@ input{
     padding: 14px 10px;
     font-size: 14px;
     overflow: hidden;
-    transition: 400ms;
+    transition: 300ms;
 }
 
 .card-container .card h3{
@@ -118,6 +126,10 @@ header{
     height: 90px;
 }
 
+header.flex{
+    justify-content: space-around;
+}
+
 header h1{
     font-size: 42px;
 }
@@ -135,3 +147,44 @@ header a{
     color: #fff;
 }
 /* --------------Navbar---------------------- */
+
+
+/* ---------------Footer---------------------- */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+footer .container .flex{
+    justify-content: start;
+}
+
+footer .footer-title{
+    color: orangered;
+    margin: 10px 0;
+}
+
+footer .container .flex i{
+    margin-right: 6px;
+}
+
+footer .container .support{
+    flex-basis: 30%;
+}
+
+footer .container address{
+    flex-basis: 30%;
+}
+
+footer .container .payment{
+    flex-basis: 30%;
+}
+
+footer .container .payment i{
+    font-size: 32px;
+    margin: 6px;
+}

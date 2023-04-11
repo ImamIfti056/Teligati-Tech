@@ -1,7 +1,3 @@
-header{
-    background-color: #000;
-}
-
 .banner{
     background: url('img/banner5.PNG') center center fixed;
     height: calc(80vh - 90px);
@@ -30,12 +26,6 @@ header{
 .btn-pc-build:hover{
     background-color: transparent;
     color: #fff;
-}
-
-#products{
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
 }
 
 #products .card{

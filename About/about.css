@@ -3,9 +3,16 @@
     letter-spacing: 2px;
 }
 
+#about .flex{
+    align-items: start;
+}
+
 #about .flex div:nth-child(1){
-    width: 100%;
-    padding-right: 20px;
+    flex-basis: 45%;
+}
+
+#about .flex div:nth-child(2){
+    flex-basis: 45%;
 }
 
 #about > div{
