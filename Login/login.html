@@ -98,12 +98,13 @@
         <div class="form-container">
             <h1>Sign in</h1>
             <div>
-                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="email" id="email" name="email" placeholder="Email" required>
             </div>
             <div>
-                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="password" id="password" name="password" placeholder="Password" required>
             </div>
-            <button id="btn-login" onclick="login()" class="btn btn-login">Sign in</button>
+            <span id="msg">Invalid email or password</span>
+            <button id="btn-login" onclick="check()" class="btn btn-login">Sign in</button>
             <p><u>Forget Password?</u></p>
             <hr>
             <button class="btn btn-createAcc" onclick="createAccount()">Create New Account</button>
